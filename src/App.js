@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import Counter from './components/counter.js';
 
 const store = createStore(allReducers);
-
+const test = "";
 export default class App extends Component {
     render() {
         return (
